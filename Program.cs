@@ -15,6 +15,7 @@ namespace AdventOfCode2019
             Console.WriteLine("1b. Day 1B");
             Console.WriteLine("2a. Day 2A");
             Console.WriteLine("2b. Day 2B");
+            Console.WriteLine("3a. Day 3A");
             Console.WriteLine("Q. Quit");
 
             Console.WriteLine();
@@ -36,6 +37,9 @@ namespace AdventOfCode2019
                         break;
                     case "2b":
                         new Day2B().Execute();
+                        break;
+                    case "3a":
+                        new Day3A().Execute();
                         break;
                     default:
                         Console.WriteLine("wat");
